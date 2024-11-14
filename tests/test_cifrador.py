@@ -7,7 +7,6 @@ def regla_tralacion():
     return  ReglaCifradoTraslacion(5)
 
 
-
 @pytest.fixture(scope='function')
 def regla_numerico():
     return  ReglaCifradoNumerico(5)
